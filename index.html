@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Tabela</title>
+
+    <style>
+        th, td {
+            border: 1px solid black;
+
+        }
+
+        tfoot {
+            background-color:cyan;
+    
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Tabela</h1>
+
+    <table> 
+        <thead> 
+            <tr> 
+                <th>Produto</th> 
+                <th>Quantidade </th>
+                <th>Preço</th>
+                <th>Black Friday</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Pruduto 1</td>
+                <td>3</td>
+                <td>R$20,00</td>
+                <td rowspan="2">Sim</td>
+            </tr>
+            <tr>
+                <td>Pruduto 2</td>
+                <td>20</td>
+                <td>R$10,00</td>
+                
+            </tr>
+            <tr>
+                <td>Pruduto 3</td>
+                <td>7</td>
+                <td>R$100,00</td>
+                <td>Não</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot> RODAPÉ
+            <tr> INFORMANDO QUE TERA 1 LINHA
+                <td colspan="3">Total</td>
+                <td>R$130,00</td>
+            </tr>
+        </tfoot>
+
+
+     </table>
+</body>
+</html>
